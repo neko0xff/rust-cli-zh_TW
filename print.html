@@ -77,7 +77,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">開始</a></li><li class="chapter-item expanded "><a href="tutorial/index.html"><strong aria-hidden="true">1.</strong> 在15分鐘內建立一個命令列應用程式</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="tutorial/setup.html"><strong aria-hidden="true">1.1.</strong> 專案初始化設置</a></li><li class="chapter-item expanded "><a href="tutorial/cli-args.html"><strong aria-hidden="true">1.2.</strong> 解析命令列參數</a></li><li class="chapter-item expanded "><a href="tutorial/impl-draft.html"><strong aria-hidden="true">1.3.</strong> 首次運行</a></li><li class="chapter-item expanded "><a href="tutorial/errors.html"><strong aria-hidden="true">1.4.</strong> 合適的回饋錯誤</a></li><li class="chapter-item expanded "><a href="tutorial/output.html"><strong aria-hidden="true">1.5.</strong> 輸出</a></li><li class="chapter-item expanded "><a href="tutorial/testing.html"><strong aria-hidden="true">1.6.</strong> 測試</a></li><li class="chapter-item expanded "><a href="tutorial/packaging.html"><strong aria-hidden="true">1.7.</strong> 打包且發布一個Rust工具</a></li></ol></li><li class="chapter-item expanded "><a href="in-depth/index.html"><strong aria-hidden="true">2.</strong> 深入探究主題</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="in-depth/signals.html"><strong aria-hidden="true">2.1.</strong> 訊號處理</a></li><li class="chapter-item expanded "><a href="in-depth/config-files.html"><strong aria-hidden="true">2.2.</strong> 使用配置檔</a></li><li class="chapter-item expanded "><a href="in-depth/exit-code.html"><strong aria-hidden="true">2.3.</strong> 退出狀態碼</a></li><li class="chapter-item expanded "><a href="in-depth/human-communication.html"><strong aria-hidden="true">2.4.</strong> 和人互動</a></li><li class="chapter-item expanded "><a href="in-depth/machine-communication.html"><strong aria-hidden="true">2.5.</strong> 和機器互動</a></li><li class="chapter-item expanded "><a href="in-depth/docs.html"><strong aria-hidden="true">2.6.</strong> 為你的 CLI 程式產生文件 </a></li></ol></li><li class="chapter-item expanded "><a href="resources/index.html"><strong aria-hidden="true">3.</strong> 相關資源</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">開始</a></li><li class="chapter-item expanded "><a href="tutorial/index.html"><strong aria-hidden="true">1.</strong> 在15分鐘內建立一個命令列應用程式</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="tutorial/setup.html"><strong aria-hidden="true">1.1.</strong> 專案初始化設置</a></li><li class="chapter-item expanded "><a href="tutorial/cli-args.html"><strong aria-hidden="true">1.2.</strong> 解析命令列參數</a></li><li class="chapter-item expanded "><a href="tutorial/impl-draft.html"><strong aria-hidden="true">1.3.</strong> 首次運行</a></li><li class="chapter-item expanded "><a href="tutorial/errors.html"><strong aria-hidden="true">1.4.</strong> 合適的回饋錯誤</a></li><li class="chapter-item expanded "><a href="tutorial/output.html"><strong aria-hidden="true">1.5.</strong> 輸出</a></li><li class="chapter-item expanded "><a href="tutorial/testing.html"><strong aria-hidden="true">1.6.</strong> 測試</a></li><li class="chapter-item expanded "><a href="tutorial/packaging.html"><strong aria-hidden="true">1.7.</strong> 打包且發布一個Rust工具</a></li></ol></li><li class="chapter-item expanded "><a href="in-depth/index.html"><strong aria-hidden="true">2.</strong> 深入探究主題</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="in-depth/signals.html"><strong aria-hidden="true">2.1.</strong> 訊號處理</a></li><li class="chapter-item expanded "><a href="in-depth/config-files.html"><strong aria-hidden="true">2.2.</strong> 使用配置檔</a></li><li class="chapter-item expanded "><a href="in-depth/exit-code.html"><strong aria-hidden="true">2.3.</strong> 退出狀態碼</a></li><li class="chapter-item expanded "><a href="in-depth/human-communication.html"><strong aria-hidden="true">2.4.</strong> 與人互動</a></li><li class="chapter-item expanded "><a href="in-depth/machine-communication.html"><strong aria-hidden="true">2.5.</strong> 與機器互動</a></li><li class="chapter-item expanded "><a href="in-depth/docs.html"><strong aria-hidden="true">2.6.</strong> 為你的 CLI 程式產生文件 </a></li></ol></li><li class="chapter-item expanded "><a href="resources/index.html"><strong aria-hidden="true">3.</strong> 相關資源</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -149,7 +149,7 @@
 而下面的章節則是介紹這些面向的實作細節。</p>
 <p>最後，也是非常重要的一件事：如果在本書發現了錯誤，或想貢獻、豐富本書的內容， 該專案原始碼在這裡 <a href="https://github.com/rust-cli/book">in the CLI WG repository</a> ，期待你的回饋！</p>
 <p><strong>說明:</strong>
-繁體中文的翻譯部分，請到<a href="https://github.com/neko0xff/rust-cli-zh_TW">這裡</a>進行回饋！</p>
+繁體中文的翻譯部分（從官方版本取得的部分，取至2024/05/20），請到<a href="https://github.com/neko0xff/rust-cli-zh_TW">這裡</a>進行回饋！</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="在15分鐘內建立一個命令列應用程式"><a class="header" href="#在15分鐘內建立一個命令列應用程式">在15分鐘內建立一個命令列應用程式</a></h1>
 <p>本教學將指導您建立CLI（命令列介面）應用程式</p>
 <p>在<a href="https://rust-lang.org/">Rust</a>中，只需大約需要十五分鐘，就能得到可以運行的程式（大約第 1.3 節以後）。</p>
@@ -1544,10 +1544,20 @@ the signal that typically tells a process to terminate.
 To handle signals in Rust programs
 you need to consider how you can receive these signals
 as well as how you can react to them.</p>
+<p>行程
+就像命令列應用程式一樣
+需要對作業系統發送的訊號做出反應。</p>
+<p>最常見的例子可能就是 <kbd>Ctrl</kbd>+<kbd>C</kbd>，
+通常告訴行程終止的訊號。</p>
+<p>要在 Rust 程式中處理信號
+你需要考慮如何接收這些信號
+以及如何對它們作出反應。</p>
 <aside>
 <p><strong>筆記:</strong>
 If your applications does not need to gracefully shutdown,
-the default handling is fine
+the default handling is fine</p>
+<p>如果您的應用程式不需要優雅關機，
+則預設的處理方式就沒問題
 (i.e. exit immediately
 and let the OS cleanup resources like open file handles).
 In that case:
@@ -1730,12 +1740,12 @@ fn main() -&gt; Result&lt;(), io::Error&gt; {
 </ol>
 </aside>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="退出狀態碼"><a class="header" href="#退出狀態碼">退出狀態碼</a></h1>
-<p>程式並不總是成功的。
-當錯誤發生時，你應該確保正確地發出必要的資訊，
+<p>程式並不總是成功的。</p>
+<p>當錯誤發生時，你應該確保正確地發出必要的資訊，
 除了<a href="in-depth/human-communication.html">告訴使用者錯誤訊息</a>，
 在大多數系統中，當行程退出時也會發出一個退出代碼
-( 一個介於 0 和 255 之間的整數，與大多數平台相容 ）。
-您應盡量根據程式的狀態去制定狀態碼。
+( 一個介於 0 和 255 之間的整數，與大多數平台相容 ）。</p>
+<p>您應盡量根據程式的狀態去制定狀態碼。
 例如： 在程式成功運行的理想情況下，應該以 <code>0</code> 退出。</p>
 <p>所以，要如何去做呢？ 
 BSD 生態系統為其退出碼做了一個通用的定義 （你可以在<a href="https://www.freebsd.org/cgi/man.cgi?query=sysexits&amp;apropos=0&amp;sektion=0&amp;manpath=FreeBSD+11.2-stable&amp;arch=default&amp;format=html">這裡</a>找到它們）。 
@@ -1762,10 +1772,10 @@ Rust 的 <a href="https://crates.io/crates/exitcode"><code>exitcode</code></a> �
     }
 }
 </code></pre>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="communicating-with-humans"><a class="header" href="#communicating-with-humans">Communicating with humans</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="與人互動"><a class="header" href="#與人互動">與人互動</a></h1>
 <p>Make sure to read <a href="in-depth/../tutorial/output.html">the chapter on CLI output</a>
-in the tutorial first.
-It covers how to write output to the terminal,
+in the tutorial first.</p>
+<p>It covers how to write output to the terminal,
 while this chapter will talk about <em>what</em> to output.</p>
 <h2 id="when-everything-is-fine"><a class="header" href="#when-everything-is-fine">When everything is fine</a></h2>
 <p>It is useful to report on the application’s progress
@@ -1892,7 +1902,7 @@ We take privacy seriously, and do not perform any automated error collection. In
 
 Thank you kindly!
 </code></pre>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="communicating-with-machines"><a class="header" href="#communicating-with-machines">Communicating with machines</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="與機器互動"><a class="header" href="#與機器互動">與機器互動</a></h1>
 <p>The power of command-line tools really comes to shine
 when you are able to combine them.
 This is not a new idea:
